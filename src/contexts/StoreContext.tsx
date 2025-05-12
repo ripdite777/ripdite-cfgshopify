@@ -40,12 +40,12 @@ const StoreContext = createContext<StoreContextType | undefined>(undefined);
 const mockProducts: Product[] = [
   {
     id: "cfg-001",
-    name: "Pro Player CFG - f0rest Edition",
+    name: "CFG",
     price: 4.99,
-    description: "Premium CFG used by f0rest, optimized for best visibility and accuracy.",
+    description: "Premium FASTCUP CFG, optimized for best visibility and accuracy.",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FtZXJ8ZW58MHx8MHx8fDA%3D",
     category: "CFGs",
-    tags: ["Pro Player", "Optimized", "Competitive"],
+    tags: ["Fastcup", "Optimized", "Competitive"],
     fullDescription: "This configuration file was created based on settings used by the legendary CS 1.6 player Patrik 'f0rest' Lindberg. It offers perfect sensitivity settings, optimized rates for modern connections, and tweaked video settings for maximum visibility. This config focuses on providing the best competitive advantage while maintaining the classic CS 1.6 feel.",
     installationSteps: [
       "Download the file", 
@@ -58,12 +58,12 @@ const mockProducts: Product[] = [
   },
   {
     id: "dll-001",
-    name: "FPS Booster Ultimate",
+    name: "Fastcup ProPublic DLL",
     price: 9.99,
-    description: "Increase your FPS by up to 200% on any hardware with this optimization DLL.",
+    description: "Increase your Headshots by up to 200% on any hardware with this aim DLL.",
     image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdhbWVyfGVufDB8fDB8fHww",
     category: "DLLs",
-    tags: ["FPS Boost", "Performance", "Legal", "VAC-Safe"],
+    tags: ["Aim", "Performance", "Legal", "VAC-Safe"],
     isFeatured: true
   },
   {
@@ -86,7 +86,7 @@ const mockProducts: Product[] = [
   },
   {
     id: "cfg-002",
-    name: "HeadHunter Aim CFG",
+    name: "Premium Aim CFG",
     price: 2.99,
     description: "Precision-focused config optimized for headshot accuracy and spray control.",
     image: "https://images.unsplash.com/photo-1608744882201-52a7f7f3dd60?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdhbWVyJTIwZnBzfGVufDB8fDB8fHww",
@@ -105,7 +105,7 @@ const mockProducts: Product[] = [
   },
   {
     id: "reg-002",
-    name: "Input Lag Eliminator",
+    name: "Anti InputLag, Debloat Tweaks",
     price: 0,
     description: "FREE registry tweaks to reduce mouse and keyboard input lag by up to 40%.",
     image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWVyJTIwa2V5Ym9hcmR8ZW58MHx8MHx8fDA%3D",
@@ -114,8 +114,8 @@ const mockProducts: Product[] = [
   },
   {
     id: "bundle-001",
-    name: "Pro Gamer Complete Pack",
-    price: 19.99,
+    name: "CFG DLL REG Tweaks Complete Pack",
+    price: 49.99,
     description: "Ultimate bundle including our best CFGs, DLLs, REG tweaks and scripts at 40% off.",
     image: "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGdhbWVyJTIwc2V0dXB8ZW58MHx8MHx8fDA%3D",
     category: "Bundles",
