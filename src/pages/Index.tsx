@@ -92,14 +92,14 @@ const HomePage = () => {
       <div className="relative h-full container mx-auto flex items-center">
         <div className="max-w-2xl p-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Pro Player <span className="text-neon-green">CFGs</span> & Settings
+            Best Shop For <span className="text-neon-green">CFGs</span> & Settings
           </h1>
           <p className="text-lg md:text-xl mb-6 text-muted-foreground">
-            Play like the pros with our collection of authentic player configurations. Improve your aim, movement, and visibility.
+            Play like the pros with our collection of authentic configurations and tweaks. Improve your aim, movement, and visibility.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="bg-neon-green hover:bg-neon-green/80 text-black font-bold">
-              Pro CFGs
+              CFGs DLLs Tweaks
             </Button>
             <Button variant="outline" size="lg">
               Learn More
