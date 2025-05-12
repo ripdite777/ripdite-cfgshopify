@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useStore } from '@/contexts/StoreContext';
@@ -11,7 +10,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { ShoppingCart, ChevronLeft, Star, Play } from 'lucide-react';
+import { ShoppingCart, ChevronLeft, Star, Play, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const ProductDetail = () => {
