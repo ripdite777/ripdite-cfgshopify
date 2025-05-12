@@ -20,7 +20,7 @@ const HomePage = () => {
     {
       title: "CFGs",
       icon: "✅",
-      description: "Professional player configurations for optimal gameplay",
+      description: "Best player configurations for optimal gameplay and aim",
       imageUrl: "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdhbWVyJTIwc2V0dGluZ3N8ZW58MHx8MHx8fDA%3D",
       slug: "cfgs",
       count: products.filter(p => p.category === "CFGs").length
@@ -28,7 +28,7 @@ const HomePage = () => {
     {
       title: "DLLs",
       icon: "⚙️",
-      description: "Performance enhancers and visual tweaks",
+      description: "Aimbot, psilent, aimlock and optimal gameplay DLLS",
       imageUrl: "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdhbWluZyUyMGhhcmR3YXJlfGVufDB8fDB8fHww",
       slug: "dlls",
       count: products.filter(p => p.category === "DLLs").length
@@ -44,7 +44,7 @@ const HomePage = () => {
     {
       title: "Scripts",
       icon: "🎯",
-      description: "Automation tools and advanced game scripts",
+      description: "Automation tools and advanced game scripts, macros",
       imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29kaW5nfGVufDB8fDB8fHww",
       slug: "scripts",
       count: products.filter(p => p.category === "Scripts").length
@@ -222,8 +222,8 @@ const HomePage = () => {
               <div className="bg-gaming-500/10 h-16 w-16 rounded-full mx-auto flex items-center justify-center mb-4">
                 <span className="text-2xl">🎮</span>
               </div>
-              <h3 className="font-bold text-lg mb-2">Pro-Tested</h3>
-              <p className="text-muted-foreground">Products developed with and used by professional CS 1.6 players for competitive advantages.</p>
+              <h3 className="font-bold text-lg mb-2">Wargods Bypassable</h3>
+              <p className="text-muted-foreground">Products developed by me and bypassed wargods and teamviewer for advantage.</p>
             </div>
           </div>
         </div>
