@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🎮 **Ripdite Market**
 
-**URL**: https://lovable.dev/projects/6f2a3809-ca3f-40c4-ac75-affe2d3431c0
+> **Premium DLL, CFG, REG & Script Marketplace for Competitive Players**
 
-## How can I edit this code?
+A modern digital storefront for Counter-Strike 1.6 enthusiasts to **buy or download** high-quality game enhancement files. This project combines sleek design, secure transactions, and gamer-focused UX to deliver the ultimate CS 1.6 resource hub.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Project Objectives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f2a3809-ca3f-40c4-ac75-affe2d3431c0) and start prompting.
+* Create a stylish, fast, and responsive website for CS 1.6 digital products.
+* Sell enhancement tools like DLLs, CFGs, REG tweaks, and scripts.
+* Provide a secure digital purchase & download system.
+* Enable both free and paid content distribution.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧩 Core Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🏠 Homepage
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Eye-catching **hero section** with strong CTA.
+* Featured **carousel** for trending products or bundles.
+* Clear product categories: `Free Files`, `Pro Packs`, `Bundles`, `Top Rated`.
 
-Follow these steps:
+### 🛒 Product Catalog
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Filterable grid view with categories:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+  * ✅ CFGs (Pro setups, keybinds)
+  * ⚙️ DLLs (Wallhacks, FPS tweaks)
+  * 🧬 REG Tweaks (Input fix, net optimization)
+  * 🎯 Scripts & Tools (AutoHotkey, launchers, more)
+* Each product includes:
 
-# Step 3: Install the necessary dependencies.
-npm i
+  * Image thumbnail
+  * Price tag or “Free”
+  * Tags for filtering/search (e.g., `FPS`, `Safe`, `VAC-Bypass`)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 📄 Product Detail Page
 
-**Edit a file directly in GitHub**
+* Full description with instructions
+* Embedded previews (images, YouTube, or MP4)
+* Installation guides (accordion or video)
+* Reviews, comments, ratings
+* “Add to Cart” or “Buy Now” buttons
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 💳 Purchase & Download
 
-**Use GitHub Codespaces**
+* Shopping cart & secure checkout
+* Payment integration (Stripe or PayPal)
+* Digital delivery via:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+  * Email with secure download link
+  * Or personal dashboard access
+* Coupon code & bundle discount support
+* Optional account registration
 
-## What technologies are used for this project?
+### 👤 User Dashboard
 
-This project is built with:
+* View/download past purchases
+* License key display (if applicable)
+* Notifications for product updates
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### ⚙️ Admin Panel (CMS)
 
-## How can I deploy this project?
+* Upload/edit products
+* Manage pricing, versions, media
+* View orders, manage users
+* Send newsletters and update alerts
 
-Simply open [Lovable](https://lovable.dev/projects/6f2a3809-ca3f-40c4-ac75-affe2d3431c0) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🛠 Tech Stack
 
-Yes, you can!
+| Layer        | Tech Options                            |
+| ------------ | --------------------------------------- |
+| **Frontend** | Next.js / React + TailwindCSS           |
+| **Backend**  | Node.js + Express / Firebase / Supabase |
+| **Database** | MongoDB / PostgreSQL                    |
+| **Payments** | Stripe or PayPal                        |
+| **Hosting**  | AWS S3 / Firebase Storage               |
+| **Auth**     | Firebase Auth / Auth0                   |
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🎨 Design & UX
+
+* Default **dark theme** with gamer aesthetics
+* Fully **mobile-responsive** layout
+* Smooth animations & hover effects
+* Sticky header + intuitive sidebar navigation
+* Built with a **mobile-first** design strategy
+
+---
+
+## 🔐 Security
+
+* Secure & encrypted payments (no card info stored)
+* Anti-piracy protection (e.g. unique links or watermarking)
+* Spam-protected comment/review system
+
+---
+
+## 📦 Included Assets
+
+* CFG, DLL, REG & Script files
+* Product thumbnails and videos
+* SEO-ready titles and descriptions
+
+---
+
+## 🎯 Goal
+
+To become the **#1 trusted digital marketplace** for CS 1.6 players by providing legally safe, pro-level configurations and tools — with the aesthetics and user experience that gamers expect in 2025.
+
+---
+
+## 📌 Future Enhancements
+
+* Live chat or Discord support widget
+* Affiliate system or referral bonuses
+* Subscription plans for regular updates
+* Localization / multi-language support
+
+---
+
+## 📁 Project Status
+
+> **In Development** — contributions, suggestions, and feedback are welcome.
+
+---
+
+## 📬 Contact
+
+For questions or contributions, reach out via [GitHub Issues](#) or contact the maintainer.
+
